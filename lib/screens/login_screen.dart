@@ -24,7 +24,7 @@ class _LoginScreenState extends State<LoginScreen> {
   void login() {
     final number = phone.text.trim();
     if (number.length < 8) {
-      toast(context, 'Утасны дугаараа зөв оруулна уу (8 орон)');
+      toast(context, 'Утасны дугаараа зөв оруулна уу? (8 орон)');
       return;
     }
     go(context,
